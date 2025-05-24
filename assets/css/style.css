@@ -73,7 +73,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(236, 224, 227);
+    background-color: rgb(250, 244, 246);
     padding: 10px 25px;
     margin: 0;
 
@@ -82,6 +82,7 @@ body {
 
 .filters h4{
     margin-bottom: 1px;
+    color: rgb(62, 40, 75);
 
 }
 
@@ -99,9 +100,12 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 5px 10px;
-    font-size: 14px;
+    font-size: 16px;
+    color: rgb(62, 40, 75);
     border-radius: 20px;
     border: none;
+    background-color: rgb(255, 255, 255);
+    font-family:  "Ibarra Real Nova", serif; ;
 }
 
 
@@ -132,13 +136,16 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    border: 1px solid black;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .producto img {
     width: 100%;
     height: auto;
     object-fit: cover;
+    border-radius: 20px 0;
 
 
 }
@@ -153,8 +160,11 @@ body {
     margin-top: 10px;
     margin-bottom: 20px;
     padding: 10px 20px;
-    background-color: aquamarine;
+    background-color: rgb(240, 190, 209);
     border: none;
+    border-radius: 20px;
+    color:rgb(62, 40, 75) ;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -167,6 +177,8 @@ body {
     justify-content: center;
     align-items: center;
     margin-bottom: 10px ;
+    padding-bottom: 20px;
+    
 }
 
 .pagination li a {
@@ -174,11 +186,13 @@ body {
     padding: 8px 12px;
     text-decoration: none;
     color: black;
-    border: 1px solid aquamarine;
+    border: none;
+    border-radius: 50%;
     font-weight: bold;
-
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
 }
+
 
 
 .footer {
@@ -190,6 +204,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 20px;
+    padding-bottom: 20px;
 }
 
 .footer i {
@@ -209,6 +224,7 @@ body {
         grid-template-columns: 250px 1fr;
         grid-template-rows: auto 1fr auto;
     }
+
 
     .navbar {
         display: flex;
